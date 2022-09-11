@@ -11,17 +11,17 @@ int main(void)
 	int low = 'a';
 	int upe = 'A';
 
-	while(low <= 'z')
+	while (low <= 'z')
 	{
 		putchar(low);
 	low += 1;
 	}
-	while(upe <= 'Z')
+	while (upe <= 'Z')
 	{
 		putchar(upe);
 	upe += 1;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 
 }
