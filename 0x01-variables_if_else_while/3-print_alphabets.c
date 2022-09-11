@@ -18,6 +18,7 @@ int main(void)
 
 		putchar(upe);
 	upe += 1;
-	putchar('n\');
+	putchar('\n');
 	return(0);
+
 }
