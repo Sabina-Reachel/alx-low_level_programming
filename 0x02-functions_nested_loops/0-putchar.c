@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar"
 /**
  * main - Entry point
  *
@@ -6,15 +7,15 @@
  */
 int main(void)
 {
-	char *sh = '_putchar';
+	char a = '_putchar';
 
 
-	while (*sh)
+	while (a)
 	{
-		_putchar(*sh);
-		sh++;
+		putchar(a);
+		a++;
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
