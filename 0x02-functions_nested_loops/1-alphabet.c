@@ -3,7 +3,7 @@
 /**
  * print_alphabet - a function that prints the alphabet, in lowercase
  *
- * Retuen: Always 0 (Succes)
+ * Return: Always 0 (Succes)
  */
 void print_alphabet(void)
 {
@@ -14,4 +14,6 @@ void print_alphabet(void)
 		_putchar(n);
 	}
 	_putchar('\n')
+		
 }
+
