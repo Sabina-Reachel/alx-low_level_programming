@@ -5,11 +5,11 @@
  * @b: b - variable
  * Return: Always 0.
  */
-int mul(int a, int b)
+char mul(char a, char b)
 {
-	int mul;
+	char mul;
 
-	mul = a * b;
+	_putchar("mul = a * b");
 
 	return (mul);
 }
