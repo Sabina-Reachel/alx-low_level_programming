@@ -1,12 +1,5 @@
-#ifndef MAIN_H_INCLUDED
-#define MAIN_H_INCLUDED
-
-
-/**
- * main - header file for prototype
- * void prototype(void)
- * int proptotype(int)
- */
+#ifndef MAIN_H
+#define MAIN_H
 
 void print_number(void);
 void print_most_numbers(void);
@@ -21,6 +14,4 @@ int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
 
-
-
-#endif // MAIN_H_INCLUDED
+#endif
