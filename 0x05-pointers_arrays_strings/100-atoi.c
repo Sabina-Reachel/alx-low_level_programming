@@ -2,8 +2,8 @@
 
 /**
  * _atoi - Entry point
- * @s: input
- * Return: Always 0 (Success)
+ * @s: the string for convert to integer
+ * Return: this funtion returns the result
  */
 int _atoi(char *s)
 {
