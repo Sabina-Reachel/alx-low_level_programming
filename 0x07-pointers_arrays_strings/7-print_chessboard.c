@@ -3,21 +3,16 @@
 /**
   * print_chessboard - Print the chessboard
   * @a: array of pieces
-  *
   * Return: Nothing.
   */
 void print_chessboard(char (*a)[8])
-{
-	int b, c;
-
-	for (b = 0; b < 8; b++)
 	{
-		for (c = 0; c < 8; c++)
-		{
-			_putchar(a[b][c]);
-		}
+	int i, n;
 
+	for (i = 0; i < 8; i++)
+	{
+		for (n = 0; n < 8; n++)
+			_putchar(a[i][n]);
 		_putchar('\n');
 	}
 }
-
