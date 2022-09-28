@@ -6,8 +6,7 @@
   * @c: character to find
   *
   * Return: the string from character found
-  */
-char *_strchr(char *s, char c)
+  */char *_strchr(char *s, char c)
 {
 	int a = 0, b;
 
@@ -27,9 +26,3 @@ char *_strchr(char *s, char c)
 
 	return ('\0');
 }
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
